@@ -1,0 +1,42 @@
+[8620:11464:1223/162751.021:VERBOSE1:crash_service_main.cc(78)] Session start. cmdline is [--reporter-url=https://crashreporter.atom.io --application-name=Atom "--crashes-directory=C:\Users\SeHyeong\github\python_exercise\lab_3\lab_3\windows\\\"xlet85153\"\Atom Crashes" --v=1]
+[8620:11464:1223/162751.030:VERBOSE1:crash_service.cc(142)] window handle is 000000000006006A
+[8620:11464:1223/162751.030:VERBOSE1:crash_service.cc(284)] pipe name is \\.\pipe\Atom Crash Service
+dumps at C:\Users\SeHyeong\github\python_exercise\lab_3\lab_3\windows\"xlet85153"\Atom Crashes
+[8620:11464:1223/162751.030:VERBOSE1:crash_service.cc(288)] checkpoint is C:\Users\SeHyeong\github\python_exercise\lab_3\lab_3\windows\"xlet85153"\Atom Crashes\crash_checkpoint.txt
+server is https://crashreporter.atom.io
+maximum 128 reports/day
+reporter is electron-crash-service
+[8620:11464:1223/162751.031:ERROR:crash_service.cc(295)] could not start dumper
+[7528:12824:1223/165105.201:VERBOSE1:crash_service_main.cc(78)] Session start. cmdline is [--reporter-url=https://crashreporter.atom.io --application-name=Atom "--crashes-directory=C:\Users\SeHyeong\github\python_exercise\lab_3\lab_3\windows\\\"xlet85153\"\Atom Crashes" --v=1]
+[7528:12824:1223/165105.208:VERBOSE1:crash_service.cc(142)] window handle is 0000000000050864
+[7528:12824:1223/165105.208:VERBOSE1:crash_service.cc(284)] pipe name is \\.\pipe\Atom Crash Service
+dumps at C:\Users\SeHyeong\github\python_exercise\lab_3\lab_3\windows\"xlet85153"\Atom Crashes
+[7528:12824:1223/165105.208:VERBOSE1:crash_service.cc(288)] checkpoint is C:\Users\SeHyeong\github\python_exercise\lab_3\lab_3\windows\"xlet85153"\Atom Crashes\crash_checkpoint.txt
+server is https://crashreporter.atom.io
+maximum 128 reports/day
+reporter is electron-crash-service
+[7528:12824:1223/165105.208:VERBOSE1:crash_service_main.cc(94)] Ready to process crash requests
+[7528:13952:1223/165105.209:VERBOSE1:crash_service.cc(317)] client start. pid = 13244
+[7528:13952:1223/165106.364:VERBOSE1:crash_service.cc(317)] client start. pid = 13528
+[14404:6344:1223/165106.399:VERBOSE1:crash_service_main.cc(78)] Session start. cmdline is [--reporter-url=https://crashreporter.atom.io --application-name=Atom "--crashes-directory=C:\Users\SeHyeong\github\python_exercise\lab_3\lab_3\windows\\\"xlet85153\"\Atom Crashes" --v=1]
+[14404:6344:1223/165106.408:VERBOSE1:crash_service.cc(142)] window handle is 00000000000706E0
+[14404:6344:1223/165106.408:VERBOSE1:crash_service.cc(284)] pipe name is \\.\pipe\Atom Crash Service
+dumps at C:\Users\SeHyeong\github\python_exercise\lab_3\lab_3\windows\"xlet85153"\Atom Crashes
+[14404:6344:1223/165106.408:VERBOSE1:crash_service.cc(288)] checkpoint is C:\Users\SeHyeong\github\python_exercise\lab_3\lab_3\windows\"xlet85153"\Atom Crashes\crash_checkpoint.txt
+server is https://crashreporter.atom.io
+maximum 128 reports/day
+reporter is electron-crash-service
+[14404:6344:1223/165106.408:ERROR:crash_service.cc(295)] could not start dumper
+[7528:13952:1223/170005.518:VERBOSE1:crash_service.cc(317)] client start. pid = 456
+[6816:10724:1223/170005.549:VERBOSE1:crash_service_main.cc(78)] Session start. cmdline is [--reporter-url=https://crashreporter.atom.io --application-name=Atom "--crashes-directory=C:\Users\SeHyeong\github\python_exercise\lab_3\lab_3\windows\\\"xlet85153\"\Atom Crashes" --v=1]
+[6816:10724:1223/170005.555:VERBOSE1:crash_service.cc(142)] window handle is 00000000000606D8
+[6816:10724:1223/170005.555:VERBOSE1:crash_service.cc(284)] pipe name is \\.\pipe\Atom Crash Service
+dumps at C:\Users\SeHyeong\github\python_exercise\lab_3\lab_3\windows\"xlet85153"\Atom Crashes
+[6816:10724:1223/170005.555:VERBOSE1:crash_service.cc(288)] checkpoint is C:\Users\SeHyeong\github\python_exercise\lab_3\lab_3\windows\"xlet85153"\Atom Crashes\crash_checkpoint.txt
+server is https://crashreporter.atom.io
+maximum 128 reports/day
+reporter is electron-crash-service
+[6816:10724:1223/170005.556:ERROR:crash_service.cc(295)] could not start dumper
+[7528:7512:1223/170005.977:VERBOSE1:crash_service.cc(325)] client end. pid = 456
+[7528:13952:1223/180731.370:VERBOSE1:crash_service.cc(317)] client start. pid = 12416
+[7528:8716:1223/180731.802:VERBOSE1:crash_service.cc(325)] client end. pid = 12416
