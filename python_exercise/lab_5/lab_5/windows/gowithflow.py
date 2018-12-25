@@ -266,17 +266,16 @@ def number_of_cases(list_data):
         for j in range(0,len(list_data)):
             new_list.append(list_data[i]+list_data[j])
     # 모든 경우의 수
-    k = len(new_list)
-    for i in range(0,k):
-        for j in range(i+1,k):
-            if new_list[i]==new_list[j]:
-                new_list.remove(new_list[j])
-                k = k - 1
+    renew_list=[str(new_list[0])]
+    for i in range(0,len(new_list)):
+        if(renew_list.count(new_list[i]) == 0):
+            renew_list.append(str(new_list[i]))
+
 # 중복데이터 삭제
 
-    new_list.sort()
+    renew_list.sort()
     # sorting
-    result = new_list
+    result = renew_list
 
     # ==================================
     return result

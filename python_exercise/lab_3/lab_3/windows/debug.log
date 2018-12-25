@@ -40,3 +40,4 @@ reporter is electron-crash-service
 [7528:7512:1223/170005.977:VERBOSE1:crash_service.cc(325)] client end. pid = 456
 [7528:13952:1223/180731.370:VERBOSE1:crash_service.cc(317)] client start. pid = 12416
 [7528:8716:1223/180731.802:VERBOSE1:crash_service.cc(325)] client end. pid = 12416
+[7528:12824:1223/231405.761:VERBOSE1:crash_service.cc(486)] session ending..
