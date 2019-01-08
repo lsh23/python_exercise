@@ -1,4 +1,6 @@
 import pytube
+import sys
+import io
 import os
 import subprocess
 # subprocess가 cmd 프로세스환경에서 작업할 수 있게끔 해줌
