@@ -18,7 +18,7 @@ def make_list_keyward_article_address (keyward) :
     type(html_contents)
     article_urls = re.findall("https://news.joins.com/article/\d\d\d\d\d\d\d\d",html_contents)
     return article_urls
-
+# keyward를 받아서 해당 중앙일보사이트에서 keyward를 검색한 페이지에서 기사들의 주소들을 파싱해온다.
 
 def parsing_article (article_url) :
     html = urlopen(article_url)
@@ -30,9 +30,10 @@ def parsing_article (article_url) :
     title = get_cleaned_text(article_title)
     article_data = [title,article_text]
     return article_data
-
+# 기사들의 주소를 받아서 해당 기사의 제목 - 기사 내용으로 리스트를 만들어서 반환해준다.
 
 def article_saver (keyward, article_data) :
     #해당 keyward폴더가 있으면 그안에 생성, 없으면 만들고 생성하는 코드 추가해야함
     with open("./"+article_data[0]+".txt",'w') as savearticle:
         savearticle.write(article_data[1])
+    #해당 keyward폴더에 기사의 제목을 파일명으로 하는 txt파알을 만들어준다.
