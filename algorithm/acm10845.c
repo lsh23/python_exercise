@@ -62,7 +62,7 @@ int answer(Queue* q,char* s){
   if(strcmp(s,"empty")==0){
     return empty(q);
   }
-  if(strcmp(s,"front")==0){
+  if(strcmp(s,"front")==0){222
     return front(q);
   }
   if(strcmp(s,"back")==0){
@@ -83,8 +83,8 @@ int main(void){
   int x;
   char* s;
   for(i=0;i<n;i++){
-    scanf("%s %d", s,&x);
-    if(strcmp(s,"push"))
+    scanf("%s %d",&s,&x);
+    if(strcmp(&s,"push"))
       push(queue,x);
     else{
       printf("%d\n",answer(queue,s));
